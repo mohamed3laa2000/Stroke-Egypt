@@ -1,0 +1,106 @@
+:root {
+    --main-color: #0d6efd;
+}
+
+body {
+    background-color: #eceaea;
+}
+
+.loader-overlay {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #032c31d7;
+    z-index: 10;
+}
+
+.loader {
+    opacity: 1;
+    transition: 1s;
+}
+
+.landing-vid {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: -2;
+}
+
+.overlay {
+    background-color: #0000005c;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.landing {
+    min-height: 90vh;
+}
+
+.blue-line {
+    height: 3px;
+    width: 150px;
+    background-color: var(--main-color);
+}
+
+.quote-image {
+    max-width: 100px;
+}
+
+.img-card {
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.img-body {
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: 0.4s;
+}
+
+.title-card {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.crossing {
+    position: relative;
+    min-height: 400px;
+    background-image: url(/assets/images/EGY-BLENDO-7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.crossing-overlay {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #0000007e;
+    position: absolute;
+    z-index: -1;
+}
+
+.mission-img:hover {
+    cursor: pointer;
+    transform: scale(1.04) rotate(1deg);
+    transition: 0.5s;
+}
+
+/* Animations */
+
+#landing {
+    top: 400px;
+    position: relative;
+    transition: 1.5s;
+}
