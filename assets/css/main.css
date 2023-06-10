@@ -75,7 +75,6 @@ body {
 .crossing {
     position: relative;
     min-height: 400px;
-    background-image: url(/assets/images/EGY-BLENDO-7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
